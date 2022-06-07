@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ari Sandika</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <!-- ICON -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  </head>
+  <body style="background-image: url(../Assets/Images/AnimatedNeatAfricand.gif); background-repeat: no-repeat; background-size: cover; width: 100%" alt="https://thumbs.gfycat.com/AnimatedNeatAfricanelephant-size_restricted.gif">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-light bg-transparent fixed-top">
+      <div class="container px-lg-0 py-lg-4">
+        <a class="text-color d-none d-lg-block d-md-none" href="">
+          <h1 class="fs-5 ms-5 mt-2 fw-bold">Ari Sandika</h1>
+        </a>
+        <a class="text-color pt-3 d-block d-lg-none d-md-block" href="">
+          <h1 class="fs-6 ms-2 mt-2 fw-bold">Ari Sandika</h1>
+        </a>
+        <div class="d-none d-lg-block d-md-none">
+          <div class="form-check form-switch">
+            <input type="checkbox" class="form-check-input" id="checkbox" onclick="setLightMode()" />
+            <label class="form-check-label me-4" for="checkbox"></label>
+            <button class="btn-color text-color-3 px-4 p-0 pt-2 border-0 shadow me-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="btn-color-2 fs-3"><ion-icon name="planet-outline"></ion-icon></span>
+            </button>
+          </div>
+        </div>
+        <div class="d-block d-lg-none d-md-block mb-1">
+          <button class="btn-color text-color-3 px-3 p-0 pt-2 border-0 shadow mt-4 me-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="btn-color-2 fs-3"><ion-icon name="planet-outline"></ion-icon></span>
+          </button>
+        </div>
+      </div>
+      <div class="offcanvas offcanvas-end p-0" style="background-color: #343232" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header theme">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button class="d-none d-lg-block d-md-none btn-color text-color-3 px-4 p-0 pt-2 border-0 shadow mt-2" type="button" data-bs-dismiss="offcanvas" aria-label="e">
+            <span class="btn-color-2 fs-3"><ion-icon name="close-outline"></ion-icon></span>
+          </button>
+          <button class="d-block d-lg-none d-md-block btn-color text-color-3 px-3 p-0 pt-2 border-0 shadow mt-2 ms-5" type="button" data-bs-dismiss="offcanvas" aria-label="e">
+            <span class="btn-color-2 fs-3"><ion-icon name="close-outline"></ion-icon></span>
+          </button>
+        </div>
+        <div class="offcanvas-body theme">
+          <ul class="navbar-nav mt-5 mt-lg-0 justify-content-end flex-grow-1 text-center">
+            <div class="nav-item theme mb-5 mt-lg-5">
+              <a class="btn-offcanvas text-color-2 fs-5 px-4 shadow" href="#">Home</a>
+            </div>
+          </ul>
+          <ul class="navbar-nav justify-content-end flex-grow-1 text-center theme">
+            <div class="nav-item theme mb-5 mt-2">
+              <a class="btn-offcanvas text-color-2 fs-5 px-4 shadow" href="#">About</a>
+            </div>
+          </ul>
+          <ul class="navbar-nav justify-content-end flex-grow-1 text-center theme">
+            <div class="nav-item theme mb-5 mt-2">
+              <a class="btn-offcanvas text-color-2 fs-5 px-4 shadow" href="#">Portfolio</a>
+            </div>
+          </ul>
+          <ul class="navbar-nav justify-content-end flex-grow-1 text-center theme">
+            <div class="nav-item theme mb-5 mt-2">
+              <a class="btn-offcanvas text-color-2 fs-5 px-4 shadow" href="#">Contact</a>
+            </div>
+          </ul>
+          <ul class="navbar-nav justify-content-end flex-grow-1 text-center theme">
+            <div class="nav-item theme mb-5 mt-2">
+              <a class="btn-offcanvas text-color-2 fs-5 px-4 shadow" href="#">Hire me</a>
+            </div>
+          </ul>
+          <div class="d-none d-lg-block d-md-none">
+            <div class="copyright text-center">
+              <h6 class="copyright text-color">© 2022 Ari Sandika</h6>
+            </div>
+          </div>
+          <div class="d-block d-lg-none d-md-block">
+            <div class="copyright-2 text-center">
+              <h6 class="copyright-2 text-color">© 2022 Ari Sandika</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="mode-toggler container fixed-top bg-transparent d-block d-lg-none d-md-block">
+      <ul class="nav justify-content-end">
+        <li class="nav-item"></li>
+        <li class="nav-item">
+          <div class="light-toggler form-check form-switch">
+            <input type="checkbox" class="form-check-input" id="checkbox" onclick="setLightMode()" />
+            <label class="form-check-label" for="checkbox"></label>
+            <div></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- SECTION -->
+    <div class="theme">
+      <section class="home container pb-5 w-100 vh-100 theme">
+        <div class="row theme">
+          <div class="image-top col-md-6 d-block d-lg-none d-md-block">
+            <div class="home-image-md text-color text-center">
+              <img class="ms-1" src="../Assets/Images/profilPic.png" width="70%" alt="profile picture" />
+            </div>
+          </div>
+          <div class="text-top col-md-6 mt-3 ps-lg-5 d-none d-lg-block d-md-none">
+            <div class="home-text text-color">
+              <div class="text-start ms-5">
+                <p class="bg-transparent ms-1 text-color-2 text-theme fw-normal">hello, i'm</p>
+                <h1 class="mt-2 fs-1">Ari Sandika</h1>
+                <p class="bg-transparent text-color-2 fs-4 text-theme fw-normal">Front End Web Developer</p>
+                <div class="more-about-button">
+                  <a class="text-about fs-6 text-color-2 px-4 shadow" href="#">See my work <span class="fs-5"></span></a>
+                </div>
+                <div class="social ms-1">
+                  <a class="social-icon fs-4 me-1 text-color" href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                  <a class="social-icon fs-4 ms-1 me-2 text-color" href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                  <a class="social-icon fs-4 me-1 me-2 text-color" href=""><ion-icon name="logo-facebook"></ion-icon></ion-icon></a>
+                  <a class="social-icon fs-4 text-color" href=""><ion-icon name="logo-twitter"></ion-icon></ion-icon></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-3 px-lg-5 d-block d-lg-none d-md-none d-sm-block">
+            <div class="home-text text-color">
+              <div class="text-center mt-3 ms">
+                <span class="bg-transparent text-color-2 text-theme fw-normal">hello, i'm</span>
+                <h1 class="fs-1 mt-2">Ari Sandika</h1>
+                <p class="bg-transparent fs-6 text-color-2 text-theme fw-normal">Front End Web Developer</p>
+                <div class="more-about-button">
+                  <a class="text-about text-color-2 fs-6 px-4 shadow" href="#">See my work <span class="fs-5"></span></a>
+                </div>
+                <div class="social-2">
+                  <a class="social-icon fs-3 text-color" href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                  <a class="social-icon fs-3 ms-3 me-3 text-color" href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                  <a class="social-icon fs-3 me-3 me-3 text-color" href=""><ion-icon name="logo-facebook"></ion-icon></ion-icon></a>
+                  <a class="social-icon fs-3 text-color" href=""><ion-icon name="logo-twitter"></ion-icon></ion-icon></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-3 px-lg-5 d-none d-lg-none d-md-block d-sm-none">
+            <div class="home-text-2 text-color">
+              <div class="ms-5 mt-3">
+                <p class="bg-transparent text-color-2 fs-6 text-theme fw-normal">hello, i'm</p>
+                <h1 class="fs-1">Ari Sandika</h1>
+                <p class="bg-transparent text-color-2 fs-6 text-theme fw-normal">Front End Web Developer</p>
+                <div class="more-about-button">
+                  <a class="text-about fs-6 text-color-2 px-4 shadow" href="#">See my work <span class="fs-5"></span></a>
+                </div>
+                <div class="social ms-1">
+                  <a class="social-icon fs-4 me-1 text-color" href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                  <a class="social-icon fs-4 ms-1 me-2 text-color" href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                  <a class="social-icon fs-4 me-1 me-2 text-color" href=""><ion-icon name="logo-facebook"></ion-icon></ion-icon></a>
+                  <a class="social-icon fs-4 text-color" href=""><ion-icon name="logo-twitter"></ion-icon></ion-icon></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image-top col-md-6 d-none d-lg-block d-md-none">
+            <div class="home-image text-color text-center">
+              <img class="ms-5" src="../Assets/Images/profilPic.png" width="65%" alt="profile picture" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      if (localStorage.getItem("theme") == "light") {
+        setLightMode();
+
+        if (document.getElementById("checkbox").checked) {
+          localStorage.setItem("checkbox", true);
+        }
+      }
+
+      function setLightMode() {
+        let isLight = document.body.classList.toggle("lightmode");
+
+        if (isLight) {
+          setLightMode.checked = true;
+          localStorage.setItem("theme", "light");
+          document.getElementById("checkbox").setAttribute("checked", "checked");
+        } else {
+          setLightMode.checked = true;
+          localStorage.removeItem("theme", "light");
+        }
+      }
+    </script>
+  </body>
+</html>
